@@ -1,0 +1,69 @@
+/*estilos.css*/
+/*
+seletor{
+    propriedade1: valor;
+    propriedade2: valor;
+}
+//todos os elementos desta TAG
+p{ 
+    color: red;
+}
+//um elemento com um iD específico (atribuido id no HTML)
+#idDoElemento{
+
+}
+//https://coolors.co/
+site para fontes: google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    /* a cor do fundo*/
+    background-color: #fefae0;
+    font-family: 'Pacifico';
+}
+h1{
+    /*cor da fonte/texto*/
+    color: #bc6c25;
+    font-family: 'Dancing Script';
+
+}
+h2{
+    color: #dda15e;
+}
+h3{
+    color: #dda15e
+}
+#primeiro{
+    text-align: center;
+    font-size: 18px;
+    color:#bc6c25
+}
+.impar{
+    font-weight: 700;
+}
+.par{
+    font-style: italic;
+}
+
+div a{
+    background-color: #ccd5ae; 
+    color: #fefae0;
+    display: inline-block;
+    padding: 5px 20px; /* espaçamento interno*/
+    margin: 5px; /* espaçamento externo*/
+    text-decoration: none; /* retira o sublinhado*/
+    border-radius: 5px; /* borda arrendodada*/
+    transition-duration: 0.5s;
+
+}
+/*estado quando o mouse esta sobre o elemento*/
+div a:hover{
+    background-color: #bc6c25;
+}
+img{
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+img:hover{
+    filter: grayscale(0%);
+}

@@ -1,6 +1,9 @@
 <html>
     <head>
         <title>Meu site</title>
+        <!--Importando o CSS-->
+        <link rel="stylesheet" href="estilos.css">
+       
     </head>
     
     <body> 
@@ -9,15 +12,17 @@
         
         <h3> Saiba como fazer um miojo em 30 segundos SEM AGUA E SEM TEMPERO</h3>
 
-        <a href="#cremoso">Cremoso e gostoso</a><br/>
-        <a href="#ingredientes"> Ingredientes</a><br/>
-        <a href="#modo"> Modo de preparo</a><br/>
-        <a href="#custos"> Custos</a><br/>
-        <a href="#saibamais"> Saiba mais</a><br/>
+        <div>
+            <a href="#cremoso">Cremoso e gostoso</a>
+            <a href="#ingredientes"> Ingredientes</a>
+            <a href="#modo"> Modo de preparo</a>
+            <a href="#custos"> Custos</a>
+            <a href="#saibamais"> Saiba mais</a>
+        </div>
 
         <a name="cremoso"></a>
         <h2> Cremoso e Gostoso</h2>
-        <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque harum iure dolor perspiciatis eveniet vitae deleniti, natus eum architecto similique, voluptatibus repellendus. Vel veritatis veniam nobis itaque officiis facere?</p>
+        <p id="primeiro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque harum iure dolor perspiciatis eveniet vitae deleniti, natus eum architecto similique, voluptatibus repellendus. Vel veritatis veniam nobis itaque officiis facere?</p>
 
         <img src="miojo.png" width="400" height="" alt="Uma cumbuca de miojo"/> 
         
@@ -33,12 +38,13 @@
         <a name="modo"></a>
         <h2> Modo de preparo</h2>
 
-        <ol type="I" start ="1">  
-            <li> Ferva a agua </li>
-            <li> Coloque o macarrão na água fervente</li>
-            <li> Aguerde 3 minutes</li>
-            <li> Coloque o tempero</li>
-            <li> Sirva quente</li>
+        <ol type="I" start ="1"> 
+            <!-- class atributo--> 
+            <li class="impar"> Ferva a agua </li>
+            <li class="par"> Coloque o macarrão na água fervente</li>
+            <li class="impar"> Aguerde 3 minutes</li>
+            <li class="par"> Coloque o tempero</li>
+            <li class="impar"> Sirva quente</li>
         </ol>
 
         <a name="custos"></a>
